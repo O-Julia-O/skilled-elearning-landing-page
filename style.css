@@ -37,6 +37,14 @@ h1 {
     border: none;
 }
 
+.button--blue {
+    line-height: 150%;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(19, 24, 63, 1);
+    color: white;
+}
+
 .header {
     padding-top: 16px;
     padding-bottom: 16px;
