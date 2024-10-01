@@ -13,6 +13,12 @@
     border: none;
 }
 
+.header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+}
+
 .header__logo {
     color: #13183F;
     font-family: "Plus Jakarta Sans", sans-serif; 
