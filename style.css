@@ -19,6 +19,13 @@ h1 {
     margin-bottom: 24px;
 }
 
+.invitation__description {
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(131, 134, 154, 1);
+    margin-bottom: 40px;
+}
+
 .flex {
     display: flex;
     justify-content: space-between;
