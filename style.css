@@ -45,6 +45,14 @@ h1 {
     color: white;
 }
 
+.button--blue {
+    background-color: rgba(19, 24, 63, 1);
+}
+
+.button--linear-grad {
+    background: linear-gradient(#FF6F48, #F02AA6);
+}
+
 .header {
     padding-top: 16px;
     padding-bottom: 16px;
