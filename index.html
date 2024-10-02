@@ -12,9 +12,12 @@
     />
     <link rel="stylesheet" href="remove-css.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Skilled e-learning landing page</title>
   </head>
@@ -33,7 +36,20 @@
         </p>
         <button class="button button--linear-grad">Get Started</button>
         <picture>
-          <!-- sourse -->
+          <!-- mobile formates -->
+          <source
+            type="image/webp"
+            srcset="
+              ./assets/image-hero-mobile.webp,
+              ./assets/image-hero-mobile@2x.webp 2x
+            "
+          />
+
+          <sourse
+            type="image/png"
+            srcset="./assets/image-hero-mobile.png, ./assets/image-hero-mobile@2x.png 2x"
+          />
+          
           <img src="./assets/image-hero-mobile.png" alt="photo" />
         </picture>
       </section>
