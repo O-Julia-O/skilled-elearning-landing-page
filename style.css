@@ -76,6 +76,10 @@ h1 {
     font-weight: 800;
 }
 
+.list__item {
+    margin-bottom: 32px;
+}
+
 .button--primary {}
 
 .button--footer {}
