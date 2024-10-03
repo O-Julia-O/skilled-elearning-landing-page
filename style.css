@@ -63,6 +63,11 @@ h1 {
     font-size: 36px;
 }
 
+.list__item:first-child {
+    background: linear-gradient(#FF6F48, #F02AA6);
+    padding: 32px;
+}
+
 .button--primary {}
 
 .button--footer {}
