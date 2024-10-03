@@ -66,6 +66,7 @@ h1 {
 .list__item:first-child {
     background: linear-gradient(#FF6F48, #F02AA6);
     padding: 32px;
+    border-radius: 15px;
 }
 
 .button--primary {}
