@@ -119,3 +119,18 @@ h3 {
 .card__img {
     margin-bottom: 36px;
 }
+
+footer {
+    background: rgba(19, 24, 63, 1);
+    align-items: center;
+    padding: 24px;
+}
+
+footer span {
+    color: white;
+}
+
+.footer--button {
+    background: linear-gradient(#4851FF, #F02AA6);
+    margin: 20px;
+}
