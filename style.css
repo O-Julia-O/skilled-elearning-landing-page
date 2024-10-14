@@ -2,6 +2,20 @@
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+:root {
+    --blue-900: #13183f;
+    --blue-600: #666ca3;
+    --pink-600: #f74780;
+    --pink-300: #ffa7c3;
+    --grey: #83869a;
+    --white: #fff;
+
+    /* gradients */
+    --pink: #f02aa6;
+    --orange: #ff6f48;
+    --blue: #4851ff;
+}
+
 .container {
     padding: 0 20px;
 }
@@ -133,4 +147,8 @@ footer span {
 .footer--button {
     background: linear-gradient(#4851FF, #F02AA6);
     margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    
 }
