@@ -101,6 +101,10 @@ h3 {
     margin-bottom: 24px;
 }
 
+.list {
+    flex-direction: column;
+}
+
 .list__item:first-child {
     background: linear-gradient(#FF6F48, #F02AA6);
     padding: 32px;
@@ -149,6 +153,13 @@ footer span {
     margin: 20px;
 }
 
-@media screen and (min-width: 768px) {
-    
+@media screen and (max-width: 768px) {
+    .list {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .list__item {
+        flex: 1 1 auto;
+    }
 }
