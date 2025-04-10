@@ -17,7 +17,7 @@
 }
 
 .container {
-    padding: 0 20px;
+    margin: 0 20px;
 }
 
 body {
@@ -161,5 +161,25 @@ footer span {
 
     .list__item {
         flex: 1 1 auto;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .container {
+        margin: 0 160px;
+    }
+
+    .list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    .wrapper {
+        align-items: center;
     }
 }
