@@ -33,57 +33,31 @@
     <main class="container">
 
       <section class="invitation">
-        <h1 class="invitation__header">Maximize skill, minimize budget</h1>
-        <p class="invitation__description">
-          Our modern courses across a range of in-demand skills will give you
-          the knowledge you need to live the life you want.
-        </p>
-        <button class="button button--linear-grad">Get Started</button>
-        <picture>
-          <!-- mobile formates -->
-          <source
-            type="image/webp"
-            srcset="
-              ./assets/image-hero-mobile.webp,
-              ./assets/image-hero-mobile@2x.webp 2x
-            "
-          />
+        <div class="hero-content">
+          <h1 class="invitation__header">Maximize skill, minimize budget</h1>
+          <p class="invitation__description">
+            Our modern courses across a range of in-demand skills will give you
+            the knowledge you need to live the life you want.
+          </p>
+          <button class="button button--linear-grad">Get Started</button>
+        </div>
+        <div class="picture__wrapper">
+          <picture>
+            <!-- Mobile (до 768px) -->
+            <source type="image/webp" media="(max-width: 767px)" srcset="./assets/image-hero-mobile.webp">
+            <source type="image/png" media="(max-width: 767px)" srcset="./assets/image-hero-mobile.png">
 
-          <sourse
-            type="image/png"
-            srcset="./assets/image-hero-mobile.png, ./assets/image-hero-mobile@2x.png 2x"
-          />
+            <!-- Tablet (от 768px до 1023px) — если хочешь -->
+            <!-- <source type="image/webp" media="(min-width: 768px) and (max-width: 1023px)" srcset="./assets/image-hero-tablet.webp"> -->
 
-          <!-- tablet formates -->
-          <source
-            type="image/webp"
-            srcset="
-              ./assets/image-hero-tablet.webp,
-              ./assets/image-hero-tablet@2x.webp 2x
-            "
-          />
+            <!-- Desktop (от 768px и выше) -->
+            <source type="image/webp" media="(min-width: 768px)" srcset="./assets/image-hero-desktop.webp">
+            <source type="image/png" media="(min-width: 768px)" srcset="./assets/image-hero-desktop.png">
 
-          <sourse
-            type="image/png"
-            srcset="./assets/image-hero-tablet.png, ./assets/image-hero-tablet@2x.png 2x"
-          />
-
-          <!-- desktop formates -->
-          <source
-            type="image/webp"
-            srcset="
-              ./assets/image-hero-desktop.webp,
-              ./assets/image-hero-desktop@2x.webp 2x
-            "
-          />
-
-          <sourse
-            type="image/png"
-            srcset="./assets/image-hero-desktop.png, ./assets/image-hero-desktop@2x.png 2x"
-          />
-
-          <img src="./assets/image-hero-mobile.png" alt="photo" />
+            <!-- Fallback -->
+            <img src="./assets/image-hero-mobile.png" alt="Hero" class="hero-img">
         </picture>
+        </div>
       </section>
 
       <!-- !SECTION WATCHWORD STARTS -->

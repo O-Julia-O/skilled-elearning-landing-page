@@ -165,8 +165,33 @@ footer span {
 }
 
 @media screen and (min-width: 64em) {
+    body {
+        position: relative;
+    }
+
     .container {
         margin: 0 160px;
+    }
+
+    .invitation {
+        overflow: hidden;
+    }
+
+    .hero-content {
+        max-width: 500px;
+        z-index: 1;
+    }
+
+    .picture__wrapper {
+        width: 50%;
+        max-width: 600px;
+        height: auto;
+    }
+
+    .hero-img {
+        position: absolute;
+        right: -20%;
+        top: -20%;
     }
 
     .list {
